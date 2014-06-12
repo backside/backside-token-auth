@@ -1,0 +1,28 @@
+{
+  "name": "backside-token-auth",
+  "version": "0.0.0",
+  "description": "Token auth module for backside",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backside/backside-token-auth.git"
+  },
+  "keywords": [
+    "backside",
+    "backside-auth"
+  ],
+  "author": "addisonj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backside/backside-token-auth/issues"
+  },
+  "dependencies": {
+    "jsonwebtoken": "~0.4.0"
+  }
+}
